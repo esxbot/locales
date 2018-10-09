@@ -1,20 +1,20 @@
 {
-  "administration": {
-    "createCategory": "Creates a new channel category on your Discord server.",
-    "createChannel": "Creates a new text or voice channel on your Discord server.",
-    "createEmoji": "Creates a new emoji on your Discord server.",
-    "createRole": "Creates a new role on your Discord server.",
-    "deleteChannel": "Deletes the specified text or voice channel from your Discord server.",
-    "deleteRole": "Deletes the specified role from your Discord server.",
-    "iAm": "Gives the specified self-assignable role to the user.",
-    "iAmNot": "Revoke the specified self-assignable role to the user.",
-    "renameChannel": "Renames the specified text or voice channel of your Discord server.",
-    "renameRole": "Renames the specified role of your Discord server.",
-    "roleColor": "Changes the color of the specified role of your Discord server.",
-    "setTopic": "Sets channel topic of the specified text channel of your Discord server.",
-    "suggest": "Posts a suggestion to the suggestion channel, if a suggestion channel has been set. Otherwise posts the suggestion in the current channel."
+  "administração": {
+    "createCategory": "Cria uma nova categoria de canal no seu servidor Discord.",
+    "createChannel": "Cria um novo texto ou canal de voz no seu servidor Discord.",
+    "createEmoji": "Cria um novo emoji no seu servidor Discord.",
+    "createRole": "Cria uma nova função no seu servidor Discord.",
+    "deleteChannel": "Exclui o texto especificado ou o canal de voz do seu servidor Discord.",
+    "deleteRole": "Exclui a função especificada do seu servidor Discord.",
+    "iAm": "Dá a função auto-atribuível especificada ao usuário.",
+    "iAmNot": "Revogar a função auto-atribuível especificada para o usuário.",
+    "renameChannel": "Renomeia o texto especificado ou o canal de voz do seu servidor Discord.",
+    "renameRole": "Renomeia a função especificada do seu servidor Discord.",
+    "roleColor": "Altera a cor da função especificada do seu servidor Discord.",
+    "setTopic": "Define o tópico do canal do canal de texto especificado do seu servidor Discord.",
+    "suggest": "Envia uma sugestão para o canal de sugestões, se um canal de sugestões tiver sido definido. Caso contrário, envia a sugestão no canal atual."
   },
-  "fun": {
+  "Diversão": {
     "airhorn": "Plays an airhorn in a voice channel.",
     "animoji": "Sends a large version of the specified animated emoji of your Discord server. And Nitro isn't required.",
     "beLikeBill": "Sends a be like bill meme to make you feel morally superior to others.",
@@ -54,12 +54,12 @@
     "xkcd": "Shows a xkcd comic.",
     "zalgolize": "Sends the same message that you had sent, but zalgolized."
   },
-  "gambling": {
+  "jogos_de_azar": {
     "betFlip": "Bet a specified amount of Bastion currency on prediction of the outcome of flipping a coin. If you win, you get more Bastion Currencies. If you lose, you lose the amount of currency you have bet.",
     "betRoll": "Bet a specified amount of Bastion currency on prediction of the outcome of rolling a dice. If you win, you get more Bastion Currencies. If you lose, you lose the amount of currency you have bet.",
     "sweep": "Shows a random user from the text channel."
   },
-  "game_stats": {
+  "estatísticas_de_jogos": {
     "ark": "Get stats of any ARK: Survival Evolved game server.",
     "battlefield1": "Get stats of any Battlefield 1 player.",
     "battlefield4": "Get stats of any Battlefield 4 player.",
@@ -80,7 +80,7 @@
     "teamFortress2": "Get stats of any Team Fortress 2 game server.",
     "unturned": "Get stats of any Unturned game server."
   },
-  "games": {
+  "jogos": {
     "acrophobia": "Starts a acrophobia game. The user will have to make a sentence from the given acronym within the given time. After the submission is done, users can vote for the best sentence, the sentence to get highest number of votes win.",
     "flip": "Flips the specified amount of coins and shows you the outcomes.",
     "jumbledSentence": "Unscramble the given jumbled sentence and increase your sentence building skills while having fun with your friends.",
@@ -146,7 +146,7 @@
     "whitelistChannel": "Add/remove the channel from the whitelist for invite filter, link filter or word filter.",
     "whitelistRole": "Add/remove a role from the whitelist for invite filter, link filter or word filter."
   },
-  "help": {
+  "ajudar": {
     "changelog": "Shows the changes made in the current version of Bastion Bot.",
     "commands": "Direct Messages you with a list of all the commands, or the commands in specific modules.",
     "commandSearch": "Search for a command with the given text.",
@@ -156,7 +156,7 @@
     "support": "Sends the invite link to Bastion HQ.",
     "terms": "Read Bastion's Terms of Service."
   },
-  "info": {
+  "informação": {
     "avatar": "Shows avatar of a specified user of your Discord server.",
     "channelID": "Shows ID of a specified channel of your Discord server.",
     "channelInfo": "Shows information of a specified text or voice channel of your Discord server.",
@@ -188,7 +188,7 @@
     "viewPermissions": "Shows the permissions you have in the server/channel.",
     "xp": "Shows the experience points of the specified user's account."
   },
-  "moderation": {
+  "moderação": {
     "addRole": "Adds the specified role to a specified user of your Discord server.",
     "ban": "Bans the specified user from your Discord server and removes 7 days of their message history.",
     "clear": "Deletes a bulk of specified messages from a text channel of your Discord server.",
@@ -212,7 +212,7 @@
     "warn": "Warns the specified user. If three warns are given, some action, specified by the `warnAction` command (previously), is taken.",
     "warnAction": "Sets the warn action for the server."
   },
-  "money": {
+  "dinheiro": {
     "bastionCurrency": "Shows the amount of Bastion Currencies in the specified user's account.",
     "buy": "Buy items from the server's shop.",
     "buyGift": "Buy gifts from Bastion's gift shop.",
@@ -229,7 +229,7 @@
     "shop": "Lists/Adds/Removes items from your server's shop. Listed items in the shop can be bought by anyone, with Bastion Currencies, in your server using the `buy` command. When users buy item, the server owner gets 90% of the profit.",
     "take": "Take the specified amount of Bastion Currencies from the specified user."
   },
-  "music": {
+  "música": {
     "clean": "Removes all the songs from the current queue of your Discord server.",
     "disconnect": "Disconnect Bastion from any voice connection in the Discord server.",
     "lyrics": "Shows the lyrics of the specified song.",
@@ -249,7 +249,7 @@
     "summon": "Asks Bastion to join a voice channel in you Discord server. It joins the default voice channel (if one is set by the Bot Owner) or any channel you are in (if you are the Bot Owner or you have are in the Music Master role).",
     "volume": "Changes/sets the volume of current playback in your Discord."
   },
-  "owner": {
+  "proprietário": {
     "addTrigger": "Adds a message trigger and a response. When a message is sent that contains that triggering word/phrase, Bastion replies with the response you have set.",
     "announce": "Send a message to announcement channel of all the servers Bastion is connected to.",
     "capture": "Captures a screenshot of the specified webpage.",
@@ -281,7 +281,7 @@
     "updateDatabase": "Updates Bastion's Database to the current release, if required.",
     "userBlacklist": "Adds/Removes a specified user to Bastion's blacklist. Blacklisted users cannot use any of the Bastion's commands."
   },
-  "queries": {
+  "consultas": {
     "anime": "Searches for the details of an Anime.",
     "calculate": "Evaluates any mathematical expression.",
     "choose": "Asks the bot to choose an option from a number of options.",
@@ -308,16 +308,16 @@
     "pokemon": "Shows you information on the specified Pokémon.",
     "poll": "Starts a poll in the current text channel asking users to vote with the specified time. If no time is specified, poll ends in 60 minutes.",
     "pollStats": "Shows the stats of the currently running poll in the channel.",
-    "reminder": "Bastion sets a reminder to remind you of specified message, via direct message, after a specified duration.",
-    "shorten": "Shortens a specified URL using Google URL Shortener.",
-    "steam": "Browse the games in different categories of the Steam Store.",
-    "tapCode": "Encodes a given text in Tap Code.",
-    "translate": "Translates your message to the specified language.",
-    "tvShow": "Searches for the details of a TV show.",
-    "twitch": "Get streaming information of a live Twitch channel.",
-    "urbanDictionary": "Searches the Urban Dictionary for an urban definition of the specified word.",
-    "weather": "Shows weather information of the specified location.",
-    "wikipedia": "Searches Wikipedia for the specified article.",
-    "youtubeSearch": "Searches for a video, for the specified query, on YouTube and shows the first result."
+    "reminder": "ESXBot define um lembrete para lembrá-lo da mensagem especificada, via mensagem direta, após uma duração especificada.",
+    "shorten": "Encurta um URL especificado usando o Redutor de URL do Google.",
+    "steam": "Procure os jogos em diferentes categorias da Loja Steam.",
+    "tapCode": "Codifica um determinado texto em Código de toque.",
+    "translate": "Traduz sua mensagem para o idioma especificado.",
+    "tvShow": "Procura pelos detalhes de um programa de TV.",
+    "twitch": "Obter informações de streaming de um canal ao vivo do Twitch.",
+    "urbanDictionary": "Pesquisa o Dicionário Urbano para uma definição urbana da palavra especificada.",
+    "weather": "Mostra informações meteorológicas da localização especificada.",
+    "wikipedia": "Pesquisa na Wikipedia pelo artigo especificado.",
+    "youtubeSearch": "Pesquisa por um vídeo, para a consulta especificada, no YouTube e mostra o primeiro resultado."
   }
 }
